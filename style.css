@@ -1,0 +1,103 @@
+/* General styles */
+
+body {
+    background-color:#EDEDED;
+}
+
+
+.red{
+    background: #F72210;
+}
+
+.roboto {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size:1.1rem;
+}
+
+span.genericon{
+    font-size: 23px;
+    width: 23px;
+    height: 22px;
+}
+
+/* Nav bar */
+.page-header {
+    background-color:#F72210;
+    height: 95px;
+}
+
+.st0 {
+    fill: white
+}
+
+.subscribe {
+    color: #F72210;
+}
+
+@media screen and (max-width: 480px) {
+    .roboto {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size:0.7rem;
+    }
+
+    .roboto b {
+        font-size: 0.8rem;
+    }
+    
+    .date-today {
+        font-size: 1rem;
+    } 
+
+    svg.logo g {
+        fill:black;
+    }
+
+}
+
+@media screen and (min-width:481px){
+
+    a.black {
+        color: black;
+    }
+    
+    .icon-arrow {
+     width:8px;
+     height: 14px;
+     margin-left:10px;
+   }
+
+   .icon-arrow g {
+       fill: #F72210;
+   }
+
+    .content {
+        max-width:1310px;
+        margin: 0 auto;
+    }
+
+}
+@media screen and (min-width: 992px){
+.header-middle .brand svg {
+    width: 396px;
+    height: 60px;
+    margin: 10px auto 0;
+}
+
+.header-middle {
+    transform: translate(-50%,0);
+    position: absolute;
+    z-index: 3;
+    top:0;
+    left:50%;
+
+}
+.header-top {
+    height: 95px;
+    padding: 20px 10px 15px;
+
+}
+
+.leaf a {
+    font-size: 1.3rem;
+}
+}
