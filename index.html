@@ -12,13 +12,12 @@
      <link rel="shortcut icon" href="images/favicon.vnd.microsoft.ico" type="image/x-icon">
      <title>Newsweek</title>
    </head>
-   <body class="bg-light">
+   <body>
 
     <!--Nav-bar larger screens-->
 
-
-     <div class="content container-{1310px}">
-       <header class="page-header d-none d-lg-block">
+     <div class="content">
+       <header class="page-header d-none d-lg-block ">
          <div class="container-fluid">
           <div class="header-top d-flex flex-row pt-5">
              <div class="col-6 d-flex justify-content-start align-items-center">
@@ -26,7 +25,7 @@
                  Mon, Jan 13, 2020
                </date>
              </div>
-             <div class="col-6 d-flex justify-content-end align-items-center">
+             <div class="col-6 px-xl-0 d-flex justify-content-end align-items-center">
                <a href="#" class="text-light text-uppercase roboto pr-3 btn"><b>Sign In</b></a>
                <a class="subscribe bg-light text-uppercase roboto px-2 d-flex align-items-center" href="#"><b class="pr-1">Subscribe</b>
               
@@ -57,26 +56,25 @@
            </div>
          </div>
       <!--Bottom region of the navbar-->
-         <nav class="header-bottom container-fluid border-bottom d-flex bg-white p-0 m-0">
-          <div class="nav container-fluid d-flex col-11">
-            <ul class="page-nav nav py-2">
-              <li class="leaf roboto nav-item my-1"><a class="border-right px-3 roboto font-weight-bold text-dark" href="#">U.S.</a></li>
-              <li class="leaf roboto nav-item my-1"><a class="border-right px-3 roboto font-weight-bold text-dark" href="#">World</a></li>
-              <li class="leaf roboto nav-item my-1"><a class="border-right px-3 roboto font-weight-bold text-dark" href="#">Business</a></li>
-              <li class="leaf roboto nav-item my-1"><a class="border-right px-3 roboto font-weight-bold text-dark" href="#">Tech &amp; Science</a></li>
-              <li class="leaf roboto nav-item my-1"><a class="border-right px-3 roboto font-weight-bold text-dark" href="#">Culture</a></li>
-              <li class="leaf roboto nav-item my-1"><a class="border-right px-3 roboto font-weight-bold text-dark" href="#">Newsgeek</a></li>
-              <li class="leaf roboto nav-item my-1"><a class="border-right px-3 roboto font-weight-bold text-dark" href="#">Sports</a></li>
-              <li class="leaf roboto nav-item my-1"><a class="border-right px-3 roboto font-weight-bold text-dark" href="#">Health</a></li>
-              <li class="leaf roboto nav-item my-1"><a class="border-right px-3 roboto font-weight-bold text-dark" href="#">The Debate</a></li>
-              <li class="leaf roboto nav-item my-1"><a class="border-right px-3 roboto font-weight-bold text-dark" href="#">Vantage</a></li>
+         <nav class="header-bottom position-relative container-fluid border-bottom d-flex bg-white p-0 m-0">
+          <div class="nav container-fluid d-flex flex-nowrap col-lg-12">
+            <ul class="page-nav nav py-2 d-flex flex-nowrap ">
+              <li class="leaf nav-item my-1"><a class="border-right px-lg-2 px-xl-3 roboto font-weight-bold text-dark" href="#">U.S.</a></li>
+              <li class="leaf nav-item my-1"><a class="border-right px-lg-2 px-xl-3 roboto font-weight-bold text-dark" href="#">World</a></li>
+              <li class="leaf nav-item my-1"><a class="border-right px-lg-2 px-xl-3 roboto font-weight-bold text-dark" href="#">Business</a></li>
+              <li class="leaf nav-item my-1"><a class="border-right px-lg-2 px-xl-3 roboto font-weight-bold text-dark" href="#">Tech &amp; Science</a></li>
+              <li class="leaf nav-item my-1"><a class="border-right px-lg-2 px-xl-3 roboto font-weight-bold text-dark" href="#">Culture</a></li>
+              <li class="leaf nav-item my-1"><a class="border-right px-lg-2 px-xl-3 roboto font-weight-bold text-dark" href="#">Newsgeek</a></li>
+              <li class="leaf nav-item my-1"><a class="border-right px-lg-2 px-xl-3 roboto font-weight-bold text-dark" href="#">Sports</a></li>
+              <li class="leaf nav-item my-1"><a class="border-right px-lg-2 px-xl-3 roboto font-weight-bold text-dark" href="#">Health</a></li>
+              <li class="leaf nav-item my-1"><a class="border-right px-lg-2 px-xl-3 roboto font-weight-bold text-dark" href="#">The Debate</a></li>
+              <li class="leaf nav-item my-1"><a class="border-right px-lg-2 px-xl-3 roboto font-weight-bold text-dark" href="#">Vantage</a></li>
             </ul>
-
             <form class="d-flex ml-3">
-              
-                <div class="container-inline d-flex align-items-center justify-content-end">
-                  <div>
-                      <input title="Enter the terms you wish to search for." placeholder="Search" type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-tex">
+                <div class="container-inline d-flex flex-nowrap align-items-center justify-content-end ">
+                  <div class="position-relative">
+                      <label class="element-invisible" for="edit-search-block-form--4">Search </label>
+                      <input title="Enter the terms you wish to search for." placeholder="Search" type="text" id="edit-search-block-form--4" name="search_block_form" value="" size="15" maxlength="128" class="form-text border-0">
                   </div>
                   <div >
                     <input type="submit" id="edit-submit--2" name="op" value="Search" class="form-submit">
@@ -92,9 +90,9 @@
        <!--Nav bar for small & medium screens-->
 
        <div class="container-fluid red p-0 d-lg-none ">
-         <nav class="navbar navbar-expand-lg">
-          <a class="navbar-brand col-4 ml-2" href="#">
-            <svg version="1.1" id="Layer_1"  class="logo"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
+         <nav class="navbar navbar-expand-lg p-1">
+          <a class="navbar-brand col-sm-5 col-md-4 col-4 ml-2" href="#">
+            <svg version="1.1" id="Layer_1"  class="logo mb-1"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
             <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
             </g></svg>
           </a>
@@ -119,6 +117,170 @@
           </div>
          </nav>
        </div>
-      </div>
+      
+
+      <!--Main section-->
+      <main class="container-fluid pt-3 p-0 mt-lg-5 position-sticky">
+        
+        <!--Wrapper first & second column-->
+        <div class="wrapper-2cols p-0 d-md-flex">
+        <!--First Column-->
+          <div class="fstories card-decks col-12 col-md-5 col-lg-4 position-sticky ">
+            <div class="block-title mb-lg-2">
+              FEATURED STORIES
+            </div>
+              <article class="card border-0">
+                <a href="#">
+                  <div class="wrapp-category">
+                    <img  class="card-img-top" src="https://d.newsweek.com/en/full/1560079/house-speaker-nancy-pelosi.jpg?w=397&h=265&q=90&f=1b18c8af4d6e742342dcbf1fa8046fcd">
+                    
+                      <a  class="category font-weight-bold text-danger bg-light p-2 px-3" href="#">NEWS</a>
+                  </div>
+                    <h4 class="card-title">
+                      <a class="text-dark font-weight-bold" href="#">
+                      The Starting 5: Impeachment, Trade Deal, Pro Football Hall of Fame and More
+                      </a>
+                    </h4>
+                    <p class="class">
+                      The first Democratic debate of the year has come and gone and now is the time to enjoy the 24 glorious days there will be before the next debate.
+                    </p>
+                </a>
+              </article>
+              <article class="card border-0">
+                <a href="#">
+                  <div class="wrapp-category">
+                    <img  class="card-img-top" src="https://d.newsweek.com/en/full/1560204/elizabeth-warren-bernie-sanders-post-debate-iowa.jpg?w=397&h=265&q=90&f=6ddfa2a5dd0bd141293f4d7f48890b9a">
+                    
+                      <a  class="category font-weight-bold text-danger bg-light p-2 px-3" href="#">U.S.</a>
+                  </div>
+                    <h4 class="card-title">
+                      <a class="text-dark font-weight-bold" href="#">
+                        Sanders Will Benefit if Warren Drops Out,Pollsters Say—But Enough to Win?
+                      </a>
+                    </h4>
+                    <p class="card-text">
+                      Supporters of the left-wing candidates were not necessarily transferable from one to the other, said one pollster.
+                    </p>
+                </a>
+              </article>
+              <article class="card border-0 mt-3">
+                <a href="#">
+                  <div class="wrapp-category">
+                    <img  class="card-img-top" src="https://d.newsweek.com/en/full/1560217/kim-jong-un.jpg?w=397&h=265&q=90&f=a446d7d26aa2995080cff1dd57b51eec">
+                    
+                      <a  class="category font-weight-bold text-danger bg-light p-2 px-3" href="#">TEXH & SCIENCE</a>
+                  </div>
+                    <h4 class="card-title">
+                      <a class="text-dark font-weight-bold" href="#">
+                        North Korea is Holding a Crypto Conference, and it's a Bad Idea to Attend
+                      </a>
+                    </h4>
+                    <p class="card-text">
+                      "The DPRK can be considered the safest country in the world. As long as you have a basic common-sense and respect for the culture," the conference website claims. The U.N. disagrees.
+                    </p>
+                </a>
+              </article>
+              <article class="card border-0 mt-3">
+                <a href="#">
+                  <div class="wrapp-category">
+                    <img  class="card-img-top" src="https://d.newsweek.com/en/full/1559941/australia-fires-iss.jpg?w=397&h=265&q=90&f=513deb2859bff83ca97ee7c4cf213ced">
+                    
+                      <a  class="category font-weight-bold text-danger bg-light p-2 px-3" href="#">TEXH & SCIENCE</a>
+                  </div>
+                    <h4 class="card-title">
+                      <a class="text-dark font-weight-bold" href="#">
+                        Smoke From Australia Fires Has Now Reached the Stratosphere, NASA Says
+                      </a>
+                    </h4>
+                    <p class="card-text">
+                      Since September last year, hundreds of fires have burned millions of hectares in Australia, leaving at least 28 people dead.
+                    </p>
+                </a>
+              </article>
+              <article class="card mt-3">
+                <a href="#">
+                  <div class="wrapp-category">
+                    <img  class="card-img-top" src="https://d.newsweek.com/en/full/1551965/wayne-state-university-college-nursing.jpg?w=343&h=229&l=0&t=0&f=4c20a90759627de34973d49221abcf5e">
+                    
+                      <a  class="category font-weight-bold text-primary bg-light p-2 px-3" href="#">SPONSORED INSIGHT</a>
+                  </div>
+                    <h4 class="card-title px-1">
+                      <a class="text-dark font-weight-bold" href="#">
+                        Nurses - The Real Medical Heroes of 2020
+                      </a>
+                    </h4>
+                    <p class="card-text px-3">
+                      We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?
+                    </p>
+                </a>
+              </article>
+              <article class="card mt-3">
+                <a href="#">
+                  <div class="wrapp-category">
+                    <img  class="card-img-top" src="https://d.newsweek.com/en/full/1551231/ccmf-v2.png?w=343&h=229&l=58&t=27&f=940b1568f5188be79a30edcda9dd9e7c">
+                    
+                      <a  class="category font-weight-bold text-primary bg-light p-2 px-3" href="#">SPONSORED INSIGHT</a>
+                  </div>
+                    <h4 class="card-title px-1">
+                      <a class="text-dark font-weight-bold" href="#">
+                        What Can a Career in Architecture Do For You?
+                      </a>
+                    </h4>
+                    <p class="card-text px-3">
+                      Architects do much more than plan and design houses, factories, office buildings, and other structures. You might be surprised how diverse the career can be. Find out more.
+                    </p>
+                </a>
+              </article>
+              <article class="card mt-3">
+                <a href="#">
+                  <div class="wrapp-category">
+                    <img  class="card-img-top" src="https://d.newsweek.com/en/full/1555316/meet-jerry-oconnell-new-york-city.png?w=343&h=229&f=f1b552a49cb3a96f5e1d89b4550396eb">
+                    
+                      <a  class="category font-weight-bold text-primary bg-light p-2 px-3" href="#">SPONSORED INSIGHT</a>
+                  </div>
+                    <h4 class="card-title px-1">
+                      <a class="text-dark font-weight-bold" href="#">
+                        Meet Jerry O'Connell in NY
+                      </a>
+                    </h4>
+                    <p class="card-text px-3">
+                      Win a trip for two to the Big Apple for a special meet and greet!
+                    </p>
+                </a>
+              </article>
+          </div>
+        <!--Second column-->
+          <div class="topstory  col-md-7 col-lg-8 ">
+            <div class="block-title mb-lg-2">
+              TOP STORY
+            </div>
+            <article class="card border-0">
+              <a href="#">
+                <div class="wrapp-category">
+                  <img  class="card-img-top" src="https://d.newsweek.com/en/full/1560171/democratic-debate-elizabeth-warren-joe-biden.jpg?w=591&h=364&f=77f1fde3c34268f1407e3d01cf27e48c ">
+                  
+                    <a  class="category font-weight-bold text-danger bg-light p-2 px-3" href="#">U.S.</a>
+                </div>
+                  <h4 class="card-title">
+                    <a class="text-dark font-weight-bold" href="#">
+                      Who Won the Seventh Democratic Debate in Iowa?
+                    </a>
+                  </h4>
+                  <p class="card-text">
+                    Elizabeth Warren pointed out that the men on stage were losers, and after the debate she didn't shake Bernie Sanders' hand. There were sparks in between, too.
+                  </p>
+              </a>
+            </article>
+          </div>
+        </div>
+        <!--Third column-->
+          <div class="block-title">
+            OPINIONS
+          </div>
+          <div class="opinion">
+
+          </div>
+      </main>
+    </div>
    </body>
  </html>

@@ -4,6 +4,10 @@ body {
     background-color:#EDEDED;
 }
 
+h4 {
+    font-family:'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+}
 
 .red{
     background: #F72210;
@@ -11,7 +15,7 @@ body {
 
 .roboto {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size:1.1rem;
+    font-size:16px;
 }
 
 span.genericon{
@@ -33,6 +37,21 @@ span.genericon{
 .subscribe {
     color: #F72210;
 }
+
+
+.block-title {
+    color: rgba(3,3,3,.4);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+}
+
+a.category {
+    position: relative;
+    bottom: 26.2px;
+    opacity: 0.9;   
+}
+
+
 
 @media screen and (max-width: 480px) {
     .roboto {
@@ -75,8 +94,56 @@ span.genericon{
         margin: 0 auto;
     }
 
+    .form-submit {
+        font-size: 0;
+        width: 0;
+        height: 0;
+        background: transparent;
+        border: 0;
+    }
+
+    .form-text {
+        width:60px;
+        height: 20px;
+        background-color: white;
+        color: rgba(0,0,0,.55);
+        position: relative;
+        top:-4px;
+        font-size:16px;
+    }
+
+    label.element-invisible {
+        background: url(images/icon_search_glass.svg) center/contain no-repeat;
+        width: 20px;
+        height: 20px;
+        clip: auto;
+        font-size: 0;
+        position: absolute;
+        top: 2px;
+        right: -13px;
+        z-index:1000;
+    }
+
+    nav.header-bottom::before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        content: "";
+        display: block;
+        width: 80px;
+        background-color: #f72210;
+        border-left: 12px solid white;
+        border-top: 13px solid #f72210;
+    }
+
+    .wrapper-2cols {
+        width: 100%;
+    }
 }
 @media screen and (min-width: 992px){
+
+
+
 .header-middle .brand svg {
     width: 396px;
     height: 60px;
@@ -89,7 +156,6 @@ span.genericon{
     z-index: 3;
     top:0;
     left:50%;
-
 }
 .header-top {
     height: 95px;
@@ -99,5 +165,10 @@ span.genericon{
 
 .leaf a {
     font-size: 1.3rem;
+    color:black
+}
+
+.wrapper-2cols {
+    width: 71%;
 }
 }
