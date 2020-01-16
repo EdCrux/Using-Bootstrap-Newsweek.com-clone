@@ -4,9 +4,9 @@ body {
     background-color:#EDEDED;
 }
 
-h4 {
+h4,h5 {
     font-family:'Roboto Condensed', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .red{
@@ -64,6 +64,10 @@ p.title-cards {
     color:#272727 !important;
 }
 
+p.lhe {
+    line-height: 1.1em !important;
+}
+
 a.btn-cultural {
     background: #C2D4D7;
     position: relative !important;
@@ -78,6 +82,19 @@ a.btn-cultural:hover {
 
 .more-story-titles {
     line-height: 1.2rem;
+}
+
+.info a {
+
+    font-family:'Roboto Condensed', sans-serif; ;
+}
+
+div.byline {
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    text-transform: uppercase;
+    margin-top: 4px;
 }
 
 @media screen and (max-width: 480px) {
@@ -96,6 +113,11 @@ a.btn-cultural:hover {
 
     svg.logo g {
         fill:black;
+    }
+
+    article.advice {
+        max-width: 90px !important;
+        background-color: lawngreen;
     }
 
 }
@@ -166,6 +188,10 @@ a.btn-cultural:hover {
     .wrapper-2cols {
         width:100%;
     }
+
+    .opinion-wrapper { 
+        width:100%;
+    } 
 }
 @media screen and (min-width: 992px){
 
@@ -198,4 +224,9 @@ a.btn-cultural:hover {
     .wrapper-2cols {
         width: 71%;
     }
+
+    .opinion-wrapper { 
+        width:29%;
+    } 
+
 }

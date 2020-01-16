@@ -13,12 +13,10 @@
      <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
      <title>Newsweek</title>
   </head>
-   <body>
-
+  <body>
     <!--Nav-bar larger screens-->
-
-     <div class="content">
-       <header class="page-header d-none d-lg-block ">
+    <div class="content d-flex flex-column">
+      <header class="page-header d-none d-lg-block ">
          <div class="container-fluid">
           <div class="header-top d-flex flex-row pt-5">
              <div class="col-6 d-flex justify-content-start align-items-center">
@@ -85,11 +83,10 @@
             </form>
           </div>
           </nav>
-       </header>
+      </header>
 
-       <!--Nav bar for small & medium screens-->
-
-       <div class="container-fluid red p-0 d-lg-none ">
+      <!--Nav bar for small & medium screens-->
+      <div class="container-fluid red p-0 d-lg-none ">
          <nav class="navbar navbar-expand-lg p-1">
           <a class="navbar-brand col-sm-5 col-md-4 col-4 ml-2" href="#">
             <svg version="1.1" id="Layer_1"  class="logo mb-1"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
@@ -116,19 +113,16 @@
             <span class="genericon genericon-menu pl-2 text-white-50 font-weight-bold"></span>
           </div>
          </nav>
-       </div>
-      
-       <!--Main section-->
+      </div>
 
-       <main class="container-fluid pt-3 p-0 mt-lg-5 position-sticky">
+      <!--Main section-->
+      <main class=" container-fluid pt-3 mt-lg-5 pl-lg-1 d-flex flex-wrap">
         
-       <!--Wrapper first & second column-->
-      
-       <di class="wrapper-2cols p-0 d-md-flex">
+      <!--Wrapper first & second column-->
+        <div class="wrapper-2cols  p-0 d-flex flex-wrap d-md-flex order-0 order-md-2">
         
-       <!--First Column-->
-        
-       <div class="fstories card-decks col-12 col-md-5 col-lg-5 position-sticky ">
+          <!--First Column-->
+          <div class="fstories col-12 col-md-5 order-1">
             <div class="block-title mb-lg-2">
               FEATURED STORIES
             </div>
@@ -139,12 +133,12 @@
                     
                       <a  class="category font-weight-bold text-danger bg-light p-2 px-3" href="#">NEWS</a>
                   </div>
-                    <h4 class="card-title">
+                    <h5 class="card-title">
                       <a class="text-dark font-weight-bold" href="#">
                       The Starting 5: Impeachment, Trade Deal, Pro Football Hall of Fame and More
                       </a>
-                    </h4>
-                    <p class="class">
+                    </h5>
+                    <p class="lhe">
                       The first Democratic debate of the year has come and gone and now is the time to enjoy the 24 glorious days there will be before the next debate.
                     </p>
                 </a>
@@ -156,12 +150,12 @@
                     
                       <a  class="category font-weight-bold text-danger bg-light p-2 px-3" href="#">U.S.</a>
                   </div>
-                    <h4 class="card-title">
+                    <h5 class="card-title">
                       <a class="text-dark font-weight-bold" href="#">
                         Sanders Will Benefit if Warren Drops Out,Pollsters Say—But Enough to Win?
                       </a>
-                    </h4>
-                    <p class="card-text">
+                    </h5>
+                    <p class="card-text lhe">
                       Supporters of the left-wing candidates were not necessarily transferable from one to the other, said one pollster.
                     </p>
                 </a>
@@ -173,29 +167,29 @@
                     
                       <a  class="category font-weight-bold text-danger bg-light p-2 px-3" href="#">TEXH & SCIENCE</a>
                   </div>
-                    <h4 class="card-title">
-                      <a class="text-dark font-weight-bold" href="#">
+                    <h5 class="card-title">
+                      <a class="text-dark font-weight-bold black" href="#">
                         North Korea is Holding a Crypto Conference, and it's a Bad Idea to Attend
                       </a>
-                    </h4>
-                    <p class="card-text">
+                    </h5>
+                    <p class="lhe">
                       "The DPRK can be considered the safest country in the world. As long as you have a basic common-sense and respect for the culture," the conference website claims. The U.N. disagrees.
                     </p>
                 </a>
               </article>
               <article class="card border-0 mt-3">
-                <a href="#">
+                <a  class="py-1" href="#">
                   <div class="wrapp-category">
                     <img  class="card-img-top" src="https://d.newsweek.com/en/full/1559941/australia-fires-iss.jpg?w=397&h=265&q=90&f=513deb2859bff83ca97ee7c4cf213ced">
                     
                       <a  class="category font-weight-bold text-danger bg-light p-2 px-3" href="#">TEXH & SCIENCE</a>
                   </div>
-                    <h4 class="card-title">
-                      <a class="text-dark font-weight-bold" href="#">
+                    <h5 class="card-title">
+                      <a class="text-dark font-weight-bold black " href="#">
                         Smoke From Australia Fires Has Now Reached the Stratosphere, NASA Says
                       </a>
-                    </h4>
-                    <p class="card-text">
+                    </h5>
+                    <p class="lhe">
                       Since September last year, hundreds of fires have burned millions of hectares in Australia, leaving at least 28 people dead.
                     </p>
                 </a>
@@ -207,12 +201,12 @@
                     
                       <a  class="category font-weight-bold text-primary bg-light p-2 px-3" href="#">SPONSORED INSIGHT</a>
                   </div>
-                    <h4 class="card-title px-1">
+                    <h5 class="card-title px-1 black">
                       <a class="text-dark font-weight-bold" href="#">
                         Nurses - The Real Medical Heroes of 2020
                       </a>
-                    </h4>
-                    <p class="card-text px-3">
+                    </h5>
+                    <p class="card-text px-3 lhe">
                       We’re used to doctors bustling in and out when in hospital, but it’s the reassuring presence and professionalism of the nursing staff that we rely on. What sets the best ones apart?
                     </p>
                 </a>
@@ -224,12 +218,12 @@
                     
                       <a  class="category font-weight-bold text-primary bg-light p-2 px-3" href="#">SPONSORED INSIGHT</a>
                   </div>
-                    <h4 class="card-title px-1">
+                    <h5 class="card-title px-1 black">
                       <a class="text-dark font-weight-bold" href="#">
                         What Can a Career in Architecture Do For You?
                       </a>
-                    </h4>
-                    <p class="card-text px-3">
+                    </h5>
+                    <p class="card-text px-3 lhe">
                       Architects do much more than plan and design houses, factories, office buildings, and other structures. You might be surprised how diverse the career can be. Find out more.
                     </p>
                 </a>
@@ -241,25 +235,23 @@
                     
                       <a  class="category font-weight-bold text-primary bg-light p-2 px-3" href="#">SPONSORED INSIGHT</a>
                   </div>
-                    <h4 class="card-title px-1">
+                    <h5 class="card-title px-1">
                       <a class="text-dark font-weight-bold" href="#">
                         Meet Jerry O'Connell in NY
                       </a>
-                    </h4>
-                    <p class="card-text px-3">
+                    </h5>
+                    <p class="card-text px-3 lhe">
                       Win a trip for two to the Big Apple for a special meet and greet!
                     </p>
                 </a>
               </article>
-       </div>
-
-       <!--Second column-->
-       
-       <div class="topstory  col-md-7 col-lg-7 d-flex flex-column">
-            <div class="block-title mb-lg-2">
+          </div>
+          <!--Second column-->
+          <div class="topstory col-12 col-md-7 d-flex flex-column order-0 order-md-1">
+            <div class="block-title mb-lg-2 ">
               TOP STORY
             </div>
-            <article class="card border-0">
+            <article class="card border-0 order-0 ">
               <a href="#">
                 <div class="wrapp-category">
                   <img  class="card-img-top" src="https://d.newsweek.com/en/full/1560171/democratic-debate-elizabeth-warren-joe-biden.jpg?w=591&h=364&f=77f1fde3c34268f1407e3d01cf27e48c ">
@@ -276,7 +268,9 @@
                   </p>
               </a>
             </article>
-            <div class="culture bg-light mt-2">
+
+            <!--Culture and Travel-->
+            <div class="culture bg-light mt-2 order-2 order-md-1 ">
               <div class="block-title mb ">
                 CULTURE & TRAVEL
               </div>
@@ -325,12 +319,12 @@
               </div>
             </div>
             </div>
-
-            <div class="more-storys">
+            <!--More stories-->
+            <div class="more-storys p-lg-2 order-1 order-md-2">
               <div class="block-title mb">
                 MORE STORIES
               </div>
-              <articl class="border-0" >
+              <article class="border-0" >
                 <div class="row p-2 p-sm-0">
                     <div class="pr-1 border-top pt-2">
                       <div class="float-left p-3 p-md-2" >
@@ -346,7 +340,7 @@
                       </p>
                     </div>
                   </div>
-                </articl>
+                </article>
                 <article class="border-0" >
                   <div class="row p-2 p-sm-0">
                       <div class="pr-1 border-top pt-2">
@@ -504,23 +498,261 @@
             </div>
 
 
-       </div>
+          </div>
 
-       
-       </div>
-
-
-          
-        
-        
+        </div>
         <!--Third column-->
-        <div class="opinion">
+        <div class="opinion-wrapper  d-block  p-0 position-sticky order-2 h-vh">
+          <div class="opinion py-2">
             <div class="block-title">
               OPINIONS
             </div>
-            
+            <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+                <div class="image-headshot p-2" >
+                  <img src="https://d.newsweek.com/en/full/1503272/ryan-thomas.png?w=63&h=63&f=375a4e1eacacb10b512934749dfad37e">
+                </div>
+                <div class="info">
+                  <a class="black font-weight-bold" href="#">Republican Lawmakers' Blind Loyalty to Trump Is a Case Study in Cowardice</a>
+                  <div class="byline font-weight-bold">
+                  By Ryan Thomas
+                  </div>
+                </div>      
+             </article>
+             <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+              <div class="image-headshot p-2" >
+                <img src="https://d.newsweek.com/en/full/1504770/galip-dalay.png?w=63&h=63&f=734ad635cb3c549508ad9d819d72eee9">
+              </div>
+              <div class="info">
+                <a class="black font-weight-bold" href="#">Trump's Killing of Soleimani Will Continue to Shape the Middle East</a>
+                <div class="byline font-weight-bold font-uppercase">
+                  BY galip dalay
+                </div>
+              </div>      
+           </article>
+             <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+              <div class="image-headshot p-2" >
+                <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77">
+              </div>
+              <div class="info">
+                <a class="black font-weight-bold" href="#">Wait, Is That It? This Democratic Debate Should Scare Democrats</a>
+                <div class="byline font-weight-bold font-uppercase">
+                  BY NEWT GINGRICH
+                </div>
+              </div>      
+           </article>
+             <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+              <div class="image-headshot p-2" >
+                <img src="https://d.newsweek.com/en/full/110048/michael-e-mann.png?w=63&h=63&f=493dae232c1e338506a129ac70ec49d9">
+              </div>
+              <div class="info">
+                <a class="black font-weight-bold" href="#">When It Comes to the Australian Bushfires, Rupert Murdoch Is an Arsonist</a>
+                <div class="byline font-weight-bold font-uppercase">
+                  BY MICHAEL E. MANN
+                </div>
+              </div>      
+           </article>
+             <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+              <div class="image-headshot p-2" >
+                <img src="https://d.newsweek.com/en/full/1504484/serra-sippel.png?w=63&h=63&f=7ff3da3043342e15252b9d6178864509">
+              </div>
+              <div class="info">
+                <a class="black font-weight-bold" href="#">Trump's Iran Attack Fits Right Into His Administration's Evangelical Priorities</a>
+                <div class="byline font-weight-bold font-uppercase">
+                  BY SERRA SIPPEL
+                </div>
+              </div>      
+           </article>
+             <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+              <div class="image-headshot p-2" >
+                <img src="https://d.newsweek.com/en/full/1559723/beatrice-maneshi.png?w=63&h=63&f=c7943d0a1ca538d51f269c509fe544d3">
+              </div>
+              <div class="info">
+                <a class="black font-weight-bold" href="#">Calling Iran a Terrorist Nation Is a Dangerous Justification</a>
+                <div class="byline font-weight-bold font-uppercase">
+                  BY BEATRICE MANESHI
+                </div>
+              </div>      
+           </article> 
+         </div> 
+         <!--latest-news-->
+         <div class="latest-news ml-lg-2 pt-lg-2 container-fluid">
+          <div class="block-title text-uppercase">
+            latest-news
+          </div>
+          <article class="border-0" >
+            <div class="row p-2 p-sm-0">
+                <div class="pr-1 pt-1 p-sm-0 d-flex flex-nowrap container-fluid">
+                  <div class="float-left p-3 p-md-1 py-lg-2 col-7 col-sm-5 col-md-2 col-lg-5  ">
+                    <img src="https://d.newsweek.com/en/full/1557828/novak-djokovic-australian-open.jpg?w=397&h=265&f=f48637acd42e8e9979f5560e51f0b485" class="card-img p-0" alt="...">
+                  </div>
+                  <h6 class="pt-lg-1 pl-lg-1 pt-2 pt-sm-2 pr-lg-5 col-5 col-sm-7 ">
+                    <a class="font-weight-bold black roboto " href="#">
+                      All You Need to Know Ahead of the 2020 Australian Open
+                    </a>
+                  </h6>
+                </div>
+            </div>
+          </article>
+          <article class="border-0" >
+            <div class="row p-2 p-sm-0">
+                <div class="pr-1 pt-1 p-sm-0 d-flex flex-nowrap container-fluid">
+                  <div class="float-left p-3 p-md-1 py-lg-2 col-7 col-sm-5 col-md-2 col-lg-5">
+                    <img src="https://d.newsweek.com/en/full/1560577/bts-nyc-times-square-december-2019.jpg?w=397&h=265&f=a562b3f97e3fe07505574ac4ee235d55" class="card-img" alt="...">
+                  </div>
+                  <h6 class="pt-lg-1 pl-lg-1 pt-2 pt-sm-2 pr-lg-5 col-5 col-sm-7 ">
+                    <a class="font-weight-bold black roboto" href="#">Mystery Boom Heard Across San Diego, USGS Says It Wasn't an Earthquake
+                    </a>
+                  </h6>
+                </div>
+            </div>
+          </article>
+          <article class="border-0" >
+            <div class="row p-2 p-sm-0">
+                <div class="pr-1  pt-1 p-sm-0 d-flex flex-nowrap container-fluid">
+                  <div class="float-left p-3 p-md-1 py-lg-2 col-7 col-sm-5 col-md-2 col-lg-5">
+                    <img src="https://d.newsweek.com/en/full/1560587/san-diego.jpg?w=397&h=265&l=0&t=0&f=1da5c89c07e735c3bd81459afa00e056" class="card-img" alt="...">
+                  </div>
+                  <h6 class="pt-lg-1 pl-lg-1 pt-2 pt-sm-2 pr-lg-5 col-5 col-sm-7 ">
+                    <a class="font-weight-bold black roboto" href="#">Australia Wildfires Map: At Least 140 Fires Burning As Rain Brings Relief
+                    </a>
+                  </h6>
+                </div>
+            </div>
+          </article>
+          <article class="border-0" >
+            <div class="row p-2 p-sm-0">
+                <div class="pr-1  pt-1 p-sm-0 d-flex flex-nowrap container-fluid">
+                  <div class="float-left p-3 p-md-1 py-lg-2 col-7 col-sm-5 col-md-2 col-lg-5">
+                    <img src="https://d.newsweek.com/en/full/1560640/australia-wildfires-new-south-wales-map.jpg?w=397&h=265&f=b7a7a2a02d2e416f1cc1485c93a736a4" class="card-img" alt="...">
+                  </div>
+                  <h6 class="pt-lg-1 pl-lg-1 pt-2 pt-sm-2 pr-lg-5 col-5 col-sm-7 ">
+                    <a class="font-weight-bold black roboto" href="#">Starbucks BTS Collaboration: K-Pop Group Launches New Exclusive Menu
+                    </a>
+                  </h6>
+                </div>
+            </div>
+          </article>
+          <article class="border-0" >
+            <div class="row p-2 p-sm-0">
+                <div class="pr-1  pt-1 p-sm-0 d-flex flex-nowrap container-fluid">
+                  <div class="float-left p-3 p-md-1 py-lg-2 col-7 col-sm-5 col-md-2 col-lg-5">
+                    <img src="https://d.newsweek.com/en/full/1560572/lee-county-sheriff.jpg?w=397&h=265&f=5dbe110027f5884143fbd102fc07d32a" class="card-img" alt="...">
+                  </div>
+                  <h6 class="pt-lg-1 pl-lg-1 pt-2 pt-sm-2 pr-lg-5 col-5 col-sm-7 ">
+                    <a class="font-weight-bold black roboto" href="#">Alabama Family Accused of Locking Children Inside Makeshift Wooden Cages
+                    </a>
+                  </h6>
+                </div>
+            </div>
+          </article>
+          <article class="border-0" >
+            <div class="row p-2 p-sm-0">
+                <div class="pr-1  pt-1 p-sm-0 d-flex flex-nowrap container-fluid">
+                  <div class="float-left p-3 p-md-1 py-lg-2 col-7 col-sm-5 col-md-2 col-lg-5">
+                    <img src="https://d.newsweek.com/en/full/1560574/curb-your-enthusiasm-season-10.jpg?w=397&h=265&f=749ff18e0db09971a98cf699430c1eda" class="card-img" alt="...">
+                  </div>
+                  <h6 class="pt-lg-1 pl-lg-1 pt-2 pt-sm-2 pr-lg-5 col-5 col-sm-7 ">
+                    <a class="font-weight-bold black roboto" href="#">'Curb Your Enthusiasm' Season 10 Release Date, Cast, Trailer
+                    </a>
+                  </h6>
+                </div>
+            </div>
+          </article>
+          <article class="border-0" >
+            <div class="row p-2 p-sm-0">
+                <div class="pr-1  pt-1 p-sm-0 d-flex flex-nowrap container-fluid">
+                  <div class="float-left p-3 p-md-1 py-lg-2 col-7 col-sm-5 col-md-2 col-lg-5">
+                    <img src="https://d.newsweek.com/en/full/1560526/gronk-box-donuts-super-bowl.jpg?w=397&h=265&f=78d1628243f5df63e90e01d6ab4aa8f1" class="card-img" alt="...">
+                  </div>
+                  <h6 class="pt-lg-1 pl-lg-1 pt-2 pt-sm-2 pr-lg-5 col-5 col-sm-7 ">
+                    <a class="font-weight-bold black roboto" href="#">Super Bowl 2020: Exclusive Gronk Donuts on Uber Eats
+                    </a>
+                  </h6>
+                </div>
+            </div>
+          </article>
+          <article class="card mt-3 w-100 advice pb-2">
+            <a href="#">
+              <div class="wrapp-category">
+                <img  class="card-img-top" src="https://d.newsweek.com/en/full/1556481/university-denver-sturm-college-law.jpg?w=343&h=229&f=03c5bc9900a26a2cb6d96e617348a138">
+                
+                  <a  class="category font-weight-bold text-primary bg-light p-2 px-3" href="#">SPONSORED INSIGHT</a>
+              </div>
+                <h5 class="card-title px-1 black">
+                  <a class="font-weight-bold black text-center" href="#">
+                    Have you thought about a career in law? If so, where should you get qualified?
+                  </a>
+                </h5>
+                <p class="card-text px-3 lhe">
+                  The rewards for a career in the legal profession are many and varied, and demand for lawyers is high. So which schools produce the best lawyers?
+                </p>
+            </a>
+          </article>
+          <article class="card mt-3 w-100 advice pb-2">
+            <a href="#">
+              <div class="wrapp-category">
+                <img  class="card-img-top" src="https://d.newsweek.com/en/full/1551987/hubbard-school-journalism-mass-communication.jpg?w=343&h=229&f=b588b3c79d85cc0c8e4829c41c46cd11">
+                
+                  <a  class="category font-weight-bold text-primary bg-light p-2 px-3" href="#">SPONSORED INSIGHT</a>
+              </div>
+                <h5 class="card-title px-1 black">
+                  <a class="font-weight-bold black text-center" href="#">
+                    Good Journalists Are More Important Than Ever in 2020
+                  </a>
+                </h5>
+                <p class="card-text px-3 lhe">
+                  The world desperately needs sharp, incisive and capable journalists to cut through the noise with measured and nuanced takes on today's pressing issues. For these looking to find their voices, an education at a leading journalism school is invaluable.
+                </p>
+            </a>
+          </article>
+          <article class="card mt-3 w-100 advice pb-2">
+            <a href="#">
+              <div class="wrapp-category">
+                <img  class="card-img-top" src="https://d.newsweek.com/en/full/1544760/denla-british-school.jpg?w=343&h=229&f=9083870ca92a26b684f5827e9f252344 ">
+                
+                  <a  class="category font-weight-bold text-primary bg-light p-2 px-3" href="#">SPONSORED INSIGHT</a>
+              </div>
+                <h5 class="card-title px-1 black">
+                  <a class="font-weight-bold black text-center" href="#">
+                    Think All International Schools are the Same? Think Again.
+                  </a>
+                </h5>
+                <p class="card-text px-3 lhe">
+                  International schools are not created equal and each one possesses a unique blend of qualities and educational specializations. Find out which one is best for your child.
+                </p>
+            </a>
+          </article>
+          <article class="card mt-3 w-100 advice pb-2">
+            <a href="#">
+              <div class="wrapp-category">
+                <img  class="card-img-top" src="https://d.newsweek.com/en/full/1550618/americas-most-responsible-companies-2020.jpg?w=343&h=229&f=228a31483952835462a9e24494fc24f7">
+                
+              </div>
+                <h5 class="card-title px-1 black">
+                  <a class="font-weight-bold black text-center" href="#">
+                    America's Most Socially Responsible Companies 2020
+                  </a>
+                </h5>
+                <p class="card-text px-3 lhe">
+                  Newsweek partnered with Statista Inc. to spotlight 300 companies that stand up as good citizens and good neighbors.
+                </p>
+            </a>
+          </article>
          </div>
+
+
+        </div>
+        </div>
+
+
       </main>
-     </div>
-   </body>
+
+      
+      
+
+      <!--Footer-->
+      <footer>
+      </footer>
+    </div>
+  </body>
  </html>
