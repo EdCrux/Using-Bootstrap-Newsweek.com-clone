@@ -13,9 +13,15 @@ h4 {
     background: #F72210;
 }
 
+.black {
+    color: black !important;
+}
+
+.font-size-small {
+    font-size: 0.9em;
+}
 .roboto {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size:16px;
 }
 
 span.genericon{
@@ -51,7 +57,28 @@ a.category {
     opacity: 0.9;   
 }
 
+p.title-cards {
+    font-family: 'Lora', serif;;
+    font-size: 21px;
+    line-height: initial;
+    color:#272727 !important;
+}
 
+a.btn-cultural {
+    background: #C2D4D7;
+    position: relative !important;
+    bottom:12px;
+    left:16px;
+}
+
+a.btn-cultural:hover {
+    background: rgb(107, 114, 116);
+    color:white;
+}
+
+.more-story-titles {
+    line-height: 1.2rem;
+}
 
 @media screen and (max-width: 480px) {
     .roboto {
@@ -137,38 +164,38 @@ a.category {
     }
 
     .wrapper-2cols {
-        width: 100%;
+        width:100%;
     }
 }
 @media screen and (min-width: 992px){
 
 
 
-.header-middle .brand svg {
-    width: 396px;
-    height: 60px;
-    margin: 10px auto 0;
-}
+    .header-middle .brand svg {
+        width: 396px;
+        height: 60px;
+        margin: 10px auto 0;
+    }
 
-.header-middle {
-    transform: translate(-50%,0);
-    position: absolute;
-    z-index: 3;
-    top:0;
-    left:50%;
-}
-.header-top {
-    height: 95px;
-    padding: 20px 10px 15px;
+    .header-middle {
+        transform: translate(-50%,0);
+        position: absolute;
+        z-index: 3;
+        top:0;
+        left:50%;
+    }
+    .header-top {
+        height: 95px;
+        padding: 20px 10px 15px;
 
-}
+    }
 
-.leaf a {
-    font-size: 1.3rem;
-    color:black
-}
+    .leaf a {
+        font-size: 1.3rem;
+        color:black
+    }
 
-.wrapper-2cols {
-    width: 71%;
-}
+    .wrapper-2cols {
+        width: 71%;
+    }
 }
