@@ -9,8 +9,17 @@ h4,h5 {
     font-size: 1.3rem;
 }
 
+img.images {
+    object-fit: cover !important;
+    width: 100%;
+}
+
 .red{
     background: #F72210;
+}
+
+.red-font {
+    color: #F72210;
 }
 
 .black {
@@ -97,6 +106,47 @@ div.byline {
     margin-top: 4px;
 }
 
+span.icon-n {
+    width: 29px;
+    height: 28px;
+    background:url("https://g.newsweek.com/www/images/logo-n1.svg") center/contain no-repeat #f72210;
+}
+
+.newsletter-signup {
+    max-width: 300px;
+    margin: 0 auto 30px;
+}
+
+.lk {
+    background: #666;
+    font-size: 1.1rem;
+}
+
+a.lk::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    margin-left: 10px;
+    background: url("https://g.newsweek.com/www/images/icon-arrow-right.svg") center/contain no-repeat;
+}
+a.features {
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+a.features::after {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    margin-left: 10px;
+    color:black;
+    background: url("https://g.newsweek.com/www/images/icon-arrow-right-black.svg") center/contain no-repeat;
+}
+
+
+
 @media screen and (max-width: 480px) {
     .roboto {
         font-family: 'Roboto Condensed', sans-serif;
@@ -114,12 +164,6 @@ div.byline {
     svg.logo g {
         fill:black;
     }
-
-    article.advice {
-        max-width: 90px !important;
-        background-color: lawngreen;
-    }
-
 }
 
 @media screen and (min-width:481px){

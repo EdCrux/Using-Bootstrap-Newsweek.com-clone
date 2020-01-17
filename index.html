@@ -84,7 +84,6 @@
           </div>
           </nav>
       </header>
-
       <!--Nav bar for small & medium screens-->
       <div class="container-fluid red p-0 d-lg-none ">
          <nav class="navbar navbar-expand-lg p-1">
@@ -122,7 +121,7 @@
         <div class="wrapper-2cols  p-0 d-flex flex-wrap d-md-flex order-0 order-md-2">
         
           <!--First Column-->
-          <div class="fstories col-12 col-md-5 order-1">
+          <div class="fstories col-12 col-md-5 order-1 position-sticky">
             <div class="block-title mb-lg-2">
               FEATURED STORIES
             </div>
@@ -507,7 +506,7 @@
             <div class="block-title">
               OPINIONS
             </div>
-            <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+            <article class="d-flex px-lg-1 pt-lg-1 pb-lg-1 border-bottom">
                 <div class="image-headshot p-2" >
                   <img src="https://d.newsweek.com/en/full/1503272/ryan-thomas.png?w=63&h=63&f=375a4e1eacacb10b512934749dfad37e">
                 </div>
@@ -518,7 +517,7 @@
                   </div>
                 </div>      
              </article>
-             <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+             <article class="d-flex px-lg-1 pt-lg-1 pb-lg-1 border-bottom">
               <div class="image-headshot p-2" >
                 <img src="https://d.newsweek.com/en/full/1504770/galip-dalay.png?w=63&h=63&f=734ad635cb3c549508ad9d819d72eee9">
               </div>
@@ -529,7 +528,7 @@
                 </div>
               </div>      
            </article>
-             <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+             <article class="d-flex px-lg-1 pt-lg-1 pb-lg-1 border-bottom">
               <div class="image-headshot p-2" >
                 <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77">
               </div>
@@ -540,7 +539,7 @@
                 </div>
               </div>      
            </article>
-             <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+             <article class="d-flex px-lg-1 pt-lg-1 pb-lg-1 border-bottom">
               <div class="image-headshot p-2" >
                 <img src="https://d.newsweek.com/en/full/110048/michael-e-mann.png?w=63&h=63&f=493dae232c1e338506a129ac70ec49d9">
               </div>
@@ -551,7 +550,7 @@
                 </div>
               </div>      
            </article>
-             <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+             <article class="d-flex px-lg-1 pt-lg-1 pb-lg-1 border-bottom">
               <div class="image-headshot p-2" >
                 <img src="https://d.newsweek.com/en/full/1504484/serra-sippel.png?w=63&h=63&f=7ff3da3043342e15252b9d6178864509">
               </div>
@@ -562,7 +561,7 @@
                 </div>
               </div>      
            </article>
-             <article class="d-flex px-lg-3 pt-lg-3 pb-lg-3 border-bottom">
+             <article class="d-flex px-lg-1 pt-lg-1 pb-lg-1 border-bottom">
               <div class="image-headshot p-2" >
                 <img src="https://d.newsweek.com/en/full/1559723/beatrice-maneshi.png?w=63&h=63&f=c7943d0a1ca538d51f269c509fe544d3">
               </div>
@@ -660,7 +659,7 @@
           </article>
           <article class="border-0" >
             <div class="row p-2 p-sm-0">
-                <div class="pr-1  pt-1 p-sm-0 d-flex flex-nowrap container-fluid">
+                <div class="pr-1  pt-1 p-sm-0  d-flex flex-nowrap container-fluid">
                   <div class="float-left p-3 p-md-1 py-lg-2 col-7 col-sm-5 col-md-2 col-lg-5">
                     <img src="https://d.newsweek.com/en/full/1560526/gronk-box-donuts-super-bowl.jpg?w=397&h=265&f=78d1628243f5df63e90e01d6ab4aa8f1" class="card-img" alt="...">
                   </div>
@@ -688,6 +687,25 @@
                 </p>
             </a>
           </article>
+
+          <div class="newsletter-signup  round-0 p-4 my-4 bg-light d-flex flex-column">
+            <div class="d-flex justify-content-around">
+               <span class="icon-n p-0"></span>
+            <div class="black text-uppercase font-weight-bold black roboto">
+               Sign up for our Newsletter 
+            </div>
+            </div>
+            <div class="my-4 ml-1">
+              <a  class="lk p-2 font-weight-bold roboto text-light text-uppercase" href="#">
+                Sign up
+              </a>
+            </div>
+            <a href="#" class="ml-1 text-secondary font-weight-bold roboto">
+              Update your preferences
+            </a>
+          </div>
+
+          
           <article class="card mt-3 w-100 advice pb-2">
             <a href="#">
               <div class="wrapp-category">
@@ -722,30 +740,103 @@
                 </p>
             </a>
           </article>
-          <article class="card mt-3 w-100 advice pb-2">
-            <a href="#">
-              <div class="wrapp-category">
-                <img  class="card-img-top" src="https://d.newsweek.com/en/full/1550618/americas-most-responsible-companies-2020.jpg?w=343&h=229&f=228a31483952835462a9e24494fc24f7">
-                
-              </div>
-                <h5 class="card-title px-1 black">
-                  <a class="font-weight-bold black text-center" href="#">
-                    America's Most Socially Responsible Companies 2020
-                  </a>
-                </h5>
-                <p class="card-text px-3 lhe">
-                  Newsweek partnered with Statista Inc. to spotlight 300 companies that stand up as good citizens and good neighbors.
-                </p>
-            </a>
-          </article>
+         
          </div>
-
-
         </div>
-        </div>
+        <section class="magazine order-3 container-fluid no-gutters">
+          <h1 class="d-none">In the magazine</h1>
+          <div class="row justify-content-end no-gutters">
+            <div class="n-title row col-lg-9 mx-lg-2 border-bottom justify-content-center align-items-center no-gutters">
+              <span class="icon-n p-0 mr-1"></span>
+              <h5 class="roboto font-weight-bold pt-2 black text-uppercase"> In the magazine</h5>
+            </div>
+          </div>
 
+          <div class="row m-0 p-0">
+            <article class="col-md-3 p-lg-0">
+                <div class="row no-gutters justify-content-center">
+                <img class="images"src="https://d.newsweek.com/en/full/1560513/january-24-31-2020-cover.jpg?w=360&h=480&q=90&f=934b1f46e8cfb6967583ca1d5fb3ff5a" alt="...">
+                </div>
+                <div class="row no-gutters justify-content-center container-fluid bg-light">
+                  <a href="#" class="features black roboto font-weight-bold text-center  text-uppercase bg-light py-1">
+                    See all features
+                  </a>
+                </div>
+            </article>
 
+            <article class="col-md-3 d-flex flex-column align-items-start">
+              <img src="https://d.newsweek.com/en/full/1559646/fe-nigeria-01-523787136-banner.jpg?w=466&h=311&l=50&t=43&q=90&f=e36653b42dd59923b263ccf8ac9da38e" class="magazine-img mt-3 images" alt="">
+              <div class="my-3">
+              <a  class="p-1 mr-2 font-weight-bold roboto text-light text-uppercase red" href="#">
+                Cover
+              </a>
+              <a class="font-weight-bold roboto text-uppercase red-font" href="#">
+                World
+              </a>
+              </div>
+              <h4 class="font-weight-bold">
+                <a class="black my-3"href="#">
+                  Black China: Africa's First Superpower Is Coming Sooner Than You Think
+                </a>
+              </h4>
+            </article>
+            <article class="col-md-3 d-flex flex-column align-items-start">
+              <img src="https://d.newsweek.com/en/full/1559668/fe-iran-01-1192553955-banner.jpg?w=466&h=311&q=90&f=7ccdeda6986951e173e4edac853188f4" class="magazine-img mt-3 images" alt="">
+              <div class="my-3">
+              <a  class="p-1 mr-2 font-weight-bold roboto text-light text-uppercase red" href="#">
+                features
+              </a>
+              <a class="font-weight-bold roboto text-uppercase red-font" href="#">
+                World
+              </a>
+              </div>
+              <h4 class="font-weight-bold">
+                <a class="black my-3"href="#">
+                  The Iran Crisis Comes With Serious Risks for America's Economy
+                </a>
+              </h4>
+            </article>
+            <article class="col-md-3 d-flex flex-column align-items-start">
+              <img src="https://d.newsweek.com/en/full/1558983/wirecutter-credit-card-debt.jpg?w=466&h=311&q=90&f=a3bc13ecd27eefb91197a7b7e7d4b8a7" class="magazine-img mt-3 images" alt="">
+              <div class="my-3">
+              <a  class="p-1 mr-2 font-weight-bold roboto text-light text-uppercase red" href="#">
+                PERISCOPE
+              </a>
+              <a class="font-weight-bold roboto text-uppercase red-font" href="#">
+                BUSINESS
+              </a>
+              </div>
+              <h4 class="font-weight-bold">
+                <a class="black my-3"href="#">
+                  Got Holiday Debt? Pay Off Your Credit Cards Quickly with These 5 Tips
+                </a>
+              </h4>
+            </article>
+
+          <div class=" row no-gutters">
+
+            <article class="bg-primary col-sm-3">
+              <h1>Cool</h1>
+            </article>
+
+            <article class="bg-secondary col-sm-3">
+              <h1>Cool</h1>
+            </article>
+
+            <article class="bg-primary col-sm-3">
+              <h1>Cool</h1>
+            </article>
+            <article class="bg-secondary col-sm-3">
+              <h1>Cool</h1>
+            </article>
+              
+          </div>
+        </section>
       </main>
+    </div>
+
+
+      
 
       
       
