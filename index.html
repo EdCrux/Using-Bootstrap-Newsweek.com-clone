@@ -85,7 +85,7 @@
           </nav>
       </header>
       <!--Nav bar for small & medium screens-->
-      <div class="container-fluid red p-0 d-lg-none ">
+      <div class="container-fluid red p-0 d-lg-none">
          <nav class="navbar navbar-expand-lg p-1">
           <a class="navbar-brand col-sm-5 col-md-4 col-4 ml-2" href="#">
             <svg version="1.1" id="Layer_1"  class="logo mb-1"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="enable-background:new 0 0 395.6 60;" xml:space="preserve"><g>
@@ -114,14 +114,14 @@
          </nav>
       </div>
 
-      <!--Main section-->
-      <main class=" container-fluid pt-3 mt-lg-5 pl-lg-1 d-flex flex-wrap">
+      <!-- #Main -->
+      <main class="container-fluid pt-3 mt-lg-5 pl-lg-1 d-flex flex-wrap">
         
       <!--Wrapper first & second column-->
         <div class="wrapper-2cols  p-0 d-flex flex-wrap d-md-flex order-0 order-md-2">
         
           <!--First Column-->
-          <div class="fstories col-12 col-md-5 order-1 position-sticky">
+          <div class="fstories col-12 col-md-5 order-1">
             <div class="block-title mb-lg-2">
               FEATURED STORIES
             </div>
@@ -246,7 +246,7 @@
               </article>
           </div>
           <!--Second column-->
-          <div class="topstory col-12 col-md-7 d-flex flex-column order-0 order-md-1">
+          <div class="topstory col-12 col-md-7 d-flex flex-column order-0 order-md-1 ">
             <div class="block-title mb-lg-2 ">
               TOP STORY
             </div>
@@ -501,7 +501,7 @@
 
         </div>
         <!--Third column-->
-        <div class="opinion-wrapper  d-block  p-0 position-sticky order-2 h-vh">
+        <div class="opinion-wrapper  d-block  p-0 order-2 h-vh">
           <div class="opinion py-2">
             <div class="block-title">
               OPINIONS
@@ -743,29 +743,29 @@
          
          </div>
         </div>
-        <section class="magazine order-3 container-fluid no-gutters">
+        <!-- #Inthemagazine -->
+        <section class="magazine order-3 container-fluid no-gutters pt-2">
           <h1 class="d-none">In the magazine</h1>
           <div class="row justify-content-end no-gutters">
-            <div class="n-title row col-lg-9 mx-lg-2 border-bottom justify-content-center align-items-center no-gutters">
+          <article class="col-md-3 p-lg-0 magazine-core order-2">
+            <div class="row no-gutters justify-content-center">
+            <img class="magazine-image"src="https://d.newsweek.com/en/full/1560513/january-24-31-2020-cover.jpg?w=360&h=480&q=90&f=934b1f46e8cfb6967583ca1d5fb3ff5a"  alt="...">
+            </div>
+            <div class="row no-gutters justify-content-center container-fluid bg-light">
+              <a href="#" class="features black roboto font-weight-bold text-center  text-uppercase bg-light py-1">
+                See all features
+              </a>
+            </div>
+          </article>
+            <div class="n-title row col-lg-9 mx-lg-2 justify-content-center align-items-center no-gutters order-1">
               <span class="icon-n p-0 mr-1"></span>
               <h5 class="roboto font-weight-bold pt-2 black text-uppercase"> In the magazine</h5>
             </div>
           </div>
-
           <div class="row m-0 p-0">
-            <article class="col-md-3 p-lg-0">
-                <div class="row no-gutters justify-content-center">
-                <img class="images"src="https://d.newsweek.com/en/full/1560513/january-24-31-2020-cover.jpg?w=360&h=480&q=90&f=934b1f46e8cfb6967583ca1d5fb3ff5a" alt="...">
-                </div>
-                <div class="row no-gutters justify-content-center container-fluid bg-light">
-                  <a href="#" class="features black roboto font-weight-bold text-center  text-uppercase bg-light py-1">
-                    See all features
-                  </a>
-                </div>
-            </article>
-
+            <article class="col-md-3 d-flex flex-column align-items-start"></article>
             <article class="col-md-3 d-flex flex-column align-items-start">
-              <img src="https://d.newsweek.com/en/full/1559646/fe-nigeria-01-523787136-banner.jpg?w=466&h=311&l=50&t=43&q=90&f=e36653b42dd59923b263ccf8ac9da38e" class="magazine-img mt-3 images" alt="">
+              <img src="https://d.newsweek.com/en/full/1559646/fe-nigeria-01-523787136-banner.jpg?w=466&h=311&l=50&t=43&q=90&f=e36653b42dd59923b263ccf8ac9da38e" class="magazine-img mt-3 images h-20-vh" alt="">
               <div class="my-3">
               <a  class="p-1 mr-2 font-weight-bold roboto text-light text-uppercase red" href="#">
                 Cover
@@ -812,38 +812,98 @@
                 </a>
               </h4>
             </article>
-
-          <div class=" row no-gutters">
-
-            <article class="bg-primary col-sm-3">
-              <h1>Cool</h1>
+            <article class="col-md-3 d-flex flex-column align-items-start">
+              <img src="https://d.newsweek.com/en/full/1559784/per-meghanmarklemutiny-1198091143-banner.jpg?w=466&h=311&l=51&t=35&q=90&f=9b194e6abc215cc63385b187c121bda2" class="magazine-img mt-3 images" alt="">
+              <div class="my-3">
+              <a  class="p-1 mr-2 font-weight-bold roboto text-light text-uppercase red" href="#">
+                PERISCOPE
+              </a>
+              <a class="font-weight-bold roboto text-uppercase red-font" href="#">
+                BUSINESS
+              </a>
+              </div>
+              <h4 class="font-weight-bold">
+                <a class="black my-3"href="#">
+                  Meghan Markle Being a Black Woman in Royal Family Was Never Going to Work
+                </a>
+              </h4>
             </article>
+            <article class="col-md-3 d-flex flex-column align-items-start ">
+              <img src="https://d.newsweek.com/en/full/1559828/cul-chanelqanda-56226855-banner.jpg?w=466&h=311&l=47&t=44&q=90&f=306a66391c7914cdddd595b7684108c0" class="magazine-img mt-3 images" alt="">
+              <div class="my-3">
+              <a  class="p-1 mr-2 font-weight-bold roboto text-light text-uppercase red" href="#">
+                PERISCOPE
+              </a>
+              <a class="font-weight-bold roboto text-uppercase red-font" href="#">
+                BUSINESS
+              </a>
+              </div>
+              <h4 class="font-weight-bold">
+                <a class="black my-3"href="#">
+                  Got Holiday Debt? Pay Off Your Credit Cards Quickly with These 5 Tips
+                </a>
+              </h4>
+            </article>
+            <article class="col-md-3 d-flex flex-column align-items-start">
+              <img src="https://d.newsweek.com/en/full/1558983/wirecutter-credit-card-debt.jpg?w=466&h=311&q=90&f=a3bc13ecd27eefb91197a7b7e7d4b8a7" class="magazine-img mt-3 images" alt="">
+              <div class="my-3">
+              <a  class="p-1 mr-2 font-weight-bold roboto text-light text-uppercase red" href="#">
+                PERISCOPE
+              </a>
+              <a class="font-weight-bold roboto text-uppercase red-font" href="#">
+                culture
+              </a>
+              </div>
+              <h4 class="font-weight-bold">
+                <a class="black my-3"href="#">
+                  Got Holiday Debt? Pay Off Your Credit Cards Quickly with These 5 Tips
+                </a>
+              </h4>
+            </article>
+            <article class="card border-0 col-md-3 mt-3">
+              <a href="#">
+                <div class="wrapp-category mh-100">
+                  <img  class="card-img-top" src="https://d.newsweek.com/en/full/1559861/night-terror.jpg?w=480&h=320&l=50&t=54&q=90&f=c079c550832cafe96766d3d96494d8ac">
+                  
+                    <a  class="category font-weight-bold red text-light p-2 px-3" href="#">Infocus</a>
+                </div>
+                <h4 class="font-weight-bold ">
+                  <a class="black my-3 text-uppercase"href="#">
+                    night-terror
+                  </a>
+                </h4>
+              </a>
+            </article>
+        </section>
+        <!-- #Inthemagazine -->
 
-            <article class="bg-secondary col-sm-3">
-              <h1>Cool</h1>
-            </article>
+        <section class="newsweek-conversation order-4 border container-fluid no-gutters" >
+          <div class="row">
+            <div>
+              <div class="row col-lg-4">
+                <div class="row">
+                  <h4>
+                    <a href="#">
+                    The Vampire Diaries' Paul Wesley Talks Fame, Directing and CBS' 'Tell Me a Story'
+                    </a>
+                  </h4>
+                </div>
+                <div class="row">
+                  <h4>
 
-            <article class="bg-primary col-sm-3">
-              <h1>Cool</h1>
-            </article>
-            <article class="bg-secondary col-sm-3">
-              <h1>Cool</h1>
-            </article>
-              
+                  </h4>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
+      <!-- #Main -->
     </div>
 
-
-      
-
-      
-      
-
       <!--Footer-->
-      <footer>
-      </footer>
+    <footer>
+    </footer>
     </div>
   </body>
  </html>
