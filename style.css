@@ -30,6 +30,14 @@ img.images {
     color: black !important;
 }
 
+.black-bg {
+    background: black;
+}
+
+.white-ft {
+    color: white;
+}
+
 .font-size-small {
     font-size: 0.9em;
 }
@@ -67,6 +75,13 @@ span.genericon{
 a.category {
     position: relative;
     bottom: 26.2px;   
+}
+
+span.category {
+    position: relative;
+    left:11px;
+    bottom:33px;
+    transform: scale(2);
 }
 
 p.title-cards {
@@ -169,6 +184,14 @@ section.magazine {
     bottom: 0;
 }
 
+
+.card-img-overlay {
+    position: absolute;
+    top:0 !important;
+    bottom:0 !important;
+    right: 0 !important;
+    left:0 !important;
+}
 
 @media screen and (max-width: 480px) {
     .roboto {
@@ -335,7 +358,7 @@ section.magazine {
     }
 
     .magazine-img {
-        min-height: 30vh;
+        min-height: 40vh;
     }
 
     .n-title::after {
