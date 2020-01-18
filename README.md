@@ -1,2 +1,2 @@
 # Using-Bootstrap-Newsweek.com-clone
-Solo project, where I am using bootstrap
+Solo project,using bootstrap as part of microverse curriculum

@@ -4,6 +4,13 @@ body {
     background-color:#EDEDED;
 }
 
+li {
+    list-style: none;
+}
+
+.left {
+    left:0;
+}
 .opacity {
     opacity: 0.2;
 }
@@ -185,13 +192,22 @@ section.magazine {
 }
 
 
-.card-img-overlay {
-    position: absolute;
-    top:0 !important;
+.bottom {   
     bottom:0 !important;
-    right: 0 !important;
-    left:0 !important;
 }
+
+.photo-middle {
+    min-height:350px;
+}
+
+.bg-img {
+    background-image: url("https://d.newsweek.com/en/full/1555347/newsweek-conversations-paul-wesley.jpg?w=486&h=315&f=78f0771c8fbfb19e3f231a48832b7a20");
+    background-size:cover;
+    background-position: 48% center;
+
+}
+
+
 
 @media screen and (max-width: 480px) {
     .roboto {
@@ -304,6 +320,12 @@ section.magazine {
         top:57px;
     }
 
+    .photo-middle .genericon-video {
+        font-size: 45px;
+        width: 53px;
+        height: 53px;
+        line-height: 53px;
+
 
 }
 @media screen and (min-width: 992px){
@@ -384,4 +406,6 @@ section.magazine {
         left:15px;
         top:20px;
     }
+}
+
 }
