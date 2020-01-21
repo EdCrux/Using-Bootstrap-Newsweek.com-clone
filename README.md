@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/EdCrux/Old-AppleClone-web/797cfe3c3472b3d55fa89e67783b07303a45b988/index.html)
+[Live Demo Link](https://rawcdn.githack.com/EdCrux/Using-Bootstrap-Newsweek.com-clone/52c7bae32dfd40a24c3d76f0be3c815c09bade6a/index.html)
 
 ## Getting Started
 
