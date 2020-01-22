@@ -16,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/EdCrux/Using-Bootstrap-Newsweek.com-clone/41be9a3152b7ad50f7fb25afcd941cec4009cf3b/index.html)
+[Live Demo Link](https://rawcdn.githack.com/EdCrux/Using-Bootstrap-Newsweek.com-clone/abaa0db3188a9998571fc03debdb47bc95facddd/index.html)
 
 ## Getting Started
 
