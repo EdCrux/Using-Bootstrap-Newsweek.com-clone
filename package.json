@@ -1,0 +1,23 @@
+{
+  "name": "using-bootstrap-newsweek.com-clone",
+  "version": "1.0.0",
+  "description": "testing with linters, and adding a live server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdCrux/Using-Bootstrap-Newsweek.com-clone.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EdCrux/Using-Bootstrap-Newsweek.com-clone/issues"
+  },
+  "homepage": "https://github.com/EdCrux/Using-Bootstrap-Newsweek.com-clone#readme",
+  "devDependencies": {
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
