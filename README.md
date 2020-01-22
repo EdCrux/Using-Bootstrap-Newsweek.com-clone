@@ -1,8 +1,8 @@
 # Using-Bootstrap-Newsweek.com-clone
-<<<<<<< HEAD
 
 
-=======
+
+
 ---
 
 > This project is completed by Eduardo Cruz, as part of Microverse curriculum.  
@@ -65,4 +65,3 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](lic.url) licensed.
->>>>>>> 7684bd3c406915e54b2b9979ce9ac38c7ac314ad
