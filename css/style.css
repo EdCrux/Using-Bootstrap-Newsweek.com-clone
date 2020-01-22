@@ -92,6 +92,11 @@ a.genericon {
   font-weight: 900;
 }
 
+.advice {
+  max-width: 350px;
+  margin:0 auto;
+}
+
 a.category {
   position: relative;
   bottom: 26.2px;
@@ -187,6 +192,7 @@ a.features::after {
   width: 100%;
   object-fit: cover !important;
 }
+
 
 section.magazine {
   position: relative;
