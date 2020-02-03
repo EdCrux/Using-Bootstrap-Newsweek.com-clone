@@ -1,9 +1,6 @@
-# Using-Bootstrap-Newsweek.com-clone
+<img src="/images/mockup.png" width="100%">
 
-<img src="/images/mockup.png" width="50%">
-
-
-
+The main goal is to create a Newsweek clone. [Newsweek original](https://www.newsweek.com/)
 ---
 
 > This project is completed by Eduardo Cruz, as part of Microverse curriculum.  
@@ -17,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/EdCrux/Using-Bootstrap-Newsweek.com-clone/abaa0db3188a9998571fc03debdb47bc95facddd/index.html)
+[Live Demo Link](https://edcrux.github.io/Using-Bootstrap-Newsweek.com-clone/index.html)
 
 ## Getting Started
 
