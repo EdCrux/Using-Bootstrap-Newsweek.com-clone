@@ -1,5 +1,6 @@
 # Using-Bootstrap-Newsweek.com-clone
 
+<img src="/images/mockup.png" width="50%">
 
 
 
