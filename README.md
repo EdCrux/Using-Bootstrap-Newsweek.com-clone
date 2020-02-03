@@ -1,9 +1,9 @@
 <img src="/images/mockup.png" width="100%">
 
-The main goal is to create a Newsweek clone. [Newsweek original](https://www.newsweek.com/)
+
 ---
 
-> This project is completed by Eduardo Cruz, as part of Microverse curriculum.  
+> The main goal is to create a Newsweek clone. [Newsweek original](https://www.newsweek.com/)  
 
 --- 
 ## Built With
